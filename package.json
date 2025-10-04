@@ -1,0 +1,27 @@
+{
+  "name": "nawala-live-server",
+  "version": "1.0.0",
+  "description": "Backend for Nawala Live - Domain blocking checker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["nawala", "domain", "blocking", "checker", "telegram", "bot"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "telegraf": "^4.15.6",
+    "axios": "^1.6.2",
+    "node-cron": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

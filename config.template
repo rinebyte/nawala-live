@@ -1,0 +1,22 @@
+# Nawala Live Server Configuration Template
+
+# Server Configuration
+PORT=3000
+
+# MongoDB Configuration
+MONGODB_URI=mongodb://localhost:27017/nawala-live
+
+# Telegram Bot Configuration
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token_here
+TELEGRAM_ADMIN_ID=telegram_id
+
+# Cron expression for hourly checking (default: every hour at minute 0)
+# Format: minute hour day month day-of-week
+# Examples:
+# 0 * * * *     - Every hour at minute 0
+# 0 */2 * * *   - Every 2 hours
+# 0 9,17 * * *  - At 9 AM and 5 PM daily
+CRON_EXPRESSION=0 * * * *
+
+# Timezone (optional, defaults to Asia/Jakarta)
+TIMEZONE=Asia/Jakarta
